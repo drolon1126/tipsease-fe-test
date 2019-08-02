@@ -145,7 +145,7 @@ function App() {
 
   // console.log('Token u there brother?: ', token);
   return (
-    <div>
+    <div style={{height:'100%'}}>
       <NavbarContainer>
         <NavLogo>tipsEase</NavLogo>
         <NavItems className="nav-items">
@@ -176,7 +176,7 @@ function App() {
         </NavItems>
       </NavbarContainer>
 
-      <div>
+      <div style={{height:'100%'}}>
         {/* export const TokenContext = createContext(); */}
         <TokenContext.Provider value={{ token, setToken }}>
           <WorkersListContext.Provider value={{ workerList, setWorkerList }}>

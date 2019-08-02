@@ -17,7 +17,8 @@ const FormContainer = styled.div`
   position: relative;
   min-width: 50em;
   max-width: 50em;
-  margin: -130em auto;
+  margin: 0em auto;
+  top: 40em;
   padding: 2em;
   display: flex;
   flex-wrap: wrap;
@@ -109,8 +110,8 @@ function Login({ touched, errors }) {
   }
 
   return (
-    <div>
-      <img className="formPageImg" style={{ zIndex: -999 }} src={serveImg} />
+    <div className={'signUpPage'}>
+      <img className='formPageImg' src={serveImg}/>
     <Form className="form">
       <FormContainer>
         <Label htmlFor="username">Username</Label>
