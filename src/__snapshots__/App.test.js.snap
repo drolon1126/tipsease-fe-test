@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <header>
+    <h1>
+      TipsEase
+    </h1>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/SignUp"
+      onClick={[Function]}
+    >
+      Sign Up
+    </a>
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      Login
+    </a>
+  </header>
+  <div>
+    <form
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <label
+        htmlFor="username"
+      >
+        username
+      </label>
+      <input
+        autoComplete="off"
+        id="username"
+        name="username"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="username"
+        type="username"
+        value=""
+      />
+      <h5
+        className="sc-bdVaJa kncjvf"
+      />
+      <label
+        htmlFor="password"
+      >
+        password
+      </label>
+      <input
+        autoComplete="off"
+        id="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="password"
+        type="password"
+        value=""
+      />
+      <h5
+        className="sc-bdVaJa kncjvf"
+      />
+      <button
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</div>
+`;
